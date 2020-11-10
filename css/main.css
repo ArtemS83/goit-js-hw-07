@@ -1,0 +1,14 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.title {
+  text-align: center;
+}
+.task-1 {
+  margin: 15px;
+  padding: 10px;
+  background-color: aqua;
+}
+#categories li {
+  margin: 5px;
+}
