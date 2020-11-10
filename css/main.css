@@ -12,3 +12,11 @@ body {
 #categories li {
   margin: 5px;
 }
+.task-2 {
+  margin: 15px;
+  padding: 10px;
+  background-color: yellow;
+}
+#ingredients li {
+  margin: 5px;
+}
