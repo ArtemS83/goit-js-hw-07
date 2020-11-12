@@ -108,3 +108,13 @@ img {
 #validation-input.invalid {
   border-color: #f44336;
 }
+.task-7 {
+  margin: 15px;
+  padding: 10px;
+  background-color: rgb(210, 230, 32);
+}
+#text {
+  display: block;
+  margin-top: 20px;
+  /* font-size: ; */
+}
