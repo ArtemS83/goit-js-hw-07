@@ -3,11 +3,13 @@
 // console.log(`В списке ${quantityСategories1} категории.`);
 
 const selectedByClass = document.querySelectorAll('#categories .item');
-const quantityСategories2 = selectedByClass.length;
-console.log(`В списке ${quantityСategories2} категории.`);
+const quantityСategories = selectedByClass.length;
+console.log(`В списке ${quantityСategories} категории.`);
 
-selectedByClass.forEach(el =>
+selectedByClass.forEach(el => {
+  const category = el.firstElementChild.textContent;
+  const quantityElements = el.lastElementChild.children.length;
   console.log(
-    `Категория: ${el.firstElementChild.textContent}\nКоличество элементов: ${el.lastElementChild.children.length}`,
-  ),
-);
+    `Категория: ${category}\nКоличество элементов: ${quantityElements}`,
+  );
+});
